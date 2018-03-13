@@ -1,0 +1,21 @@
+
+.carousel-inner
+{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+.carousel-item1
+{
+    background-size: cover;
+}
+.carousel-item2
+{
+    background-size: cover;
+}
+.carousel-item3
+{
+    background-size: cover;
+}
