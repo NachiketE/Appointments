@@ -67,26 +67,26 @@
         <h1 style="font-size: 70px;">APPOINTMENT</h1>
     </div>
 </div>
-     
-<div class="container" style="margin-left: 125px;">
-        <div class="bl">
-            <h3>Make an Appointment to us.</h3>
-            <h4 style="color: red;">Take a look at our quality features</h4>
-        </div>
-        <p style="font-size: medium;">Please fill in the details below and let us know the services you will like us to do on your vehicle. Our support team will review your requirements and get back to you within no time.</p>
+        <div class="container" style="margin-left: 125px;">
+      <div class="bl">
+            <h3>Make an Appointment to us</h3>
+            <h4 id="hi"style="color: red;">Take a look at our quality features</h4>
+        </div><br>
+            <h4 style="font-size:20px; line-height: 200%;">Please fill in the details below and let us know the services you will like us to do on your vehicle. Our support team will review your requirements and get back to you within no time.</h4><BR>
         <div class="container">
         <form>
-            <div class="vt">Vehicle Information</div>
+            <div class="row">
+                <div class="vt">Vehicle Information</div></div>
             <br>
             <div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 col-lg-4">
             <div class="vt">Vehicle Year</div>
                 <br>
                 <div class="thm-spinner" data-min-value="1987" data-max-value="2018" data-default-value="2017">
                 </div>
 					<input type="text" id="p1" readonly class="vehicle-year" placeholder="2017" >
 				</div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4">
                 <div class="vt">Vehicle Make</div>  
                 <br>
                 <select id="p2" style="width: 200px; height: 30px;">
@@ -111,20 +111,22 @@
 				<option value="Mahindra">Mahindra</option>
 				<option value="Lamborghini">Lamborghini</option>
                 </select>
-                <div class="col-md-4">
+                <div class="col-md-4 col-lg-4">
 				<div class="vt">Vehicle Mileage</div>
                     <br>
+                   
 				<input type="text" id="pp" placeholder="Vehicle Mileage"  style="width: 200px; height: 30px;">
 			</div>
 		   </div>    
-			</div><br> 
+			</div><br> <div class="row">
+            <div class="vt">Appoinment Information</div></div><br><br>
             <div class="row">
-            <div class="col-md-6">
-                <div class="vt">Appoinment Date</div><br>
+                <div class="col-md-6">
+                <div class="vt">Appoinment Date</div><br><br>
 				<input type="text" id="pp1" placeholder="MM/DD/YYYY">
 			</div>
             <div class="col-md-6">
-                <div class="vt">Appointment Timeframe</div><br>
+                <div class="vt">Appointment Timeframe</div><br><br>
                 <select id="pp2">                       
 					<div class="vs"><option value="" selected="selected">Choose...</option>
 								<option value="09:00 AM - 10:00 AM">09:00 AM - 10:00 AM</option>
@@ -137,11 +139,11 @@
 								<option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
 								<option value="05:00 PM - 06:00 PM">05:00 PM - 06:00 PM</option>
                     </div></select></div>
-            </div><br>
+            </div><br><br>
             <div class="row">
             <div class="vt">Select Services need</div></div><br>
             <div class="row">
-            <div class="vt">
+            <div class="vs">
                 <ul>
 				<li>
 				<span class="input-checker">
@@ -199,7 +201,7 @@
                 </li>
 					</ul></div></div> <br>
             <div class="row">
-            <div class="vs">Contact Details</div></div><br>
+            <div class="vt">Contact Details</div></div><br><br>
             <div class="row">
             <div class="col-md-5 col-sm-12 col-xs-12">
 					<div class="vs">                            
@@ -220,7 +222,7 @@
 		
         </form>
         </div>
-	    </div>
+            </BR></div>
         <br>
         <br>
          <div id="footer">
