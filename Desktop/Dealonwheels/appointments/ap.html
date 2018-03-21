@@ -66,6 +66,9 @@
     <div class="op">
         <h1 style="font-size: 70px;">APPOINTMENT</h1>
     </div>
+   <!-- <span class="bot">
+      <p>You are Here: <a href="#" class="abc">&nbsp &nbsp Home</a>&nbsp /&nbsp Contact Us </p>
+    </span> -->
 </div>
         <div class="container" style="margin-left: 125px;">
       <div class="bl">
@@ -77,7 +80,7 @@
         <form>
             <div class="row">
                 <div class="vt">Vehicle Information</div></div>
-            <br>
+                <br>      
             <div class="row">
 			<div class="col-md-4 col-lg-4">
             <div class="vt">Vehicle Year</div>
@@ -111,13 +114,15 @@
 				<option value="Mahindra">Mahindra</option>
 				<option value="Lamborghini">Lamborghini</option>
                 </select>
-                <div class="col-md-4 col-lg-4">
-				<div class="vt">Vehicle Mileage</div>
+                </div>
+                <div class=" col-lg-4">
+                    <div class="vt">Vehicle Mileage</div>
                     <br>
                    
 				<input type="text" id="pp" placeholder="Vehicle Mileage"  style="width: 200px; height: 30px;">
-			</div>
-		   </div>    
+                    </div>
+                </div>
+				  
 			</div><br> <div class="row">
             <div class="vt">Appoinment Information</div></div><br><br>
             <div class="row">
@@ -142,66 +147,43 @@
             </div><br><br>
             <div class="row">
             <div class="vt">Select Services need</div></div><br>
+            <div class="container">
             <div class="row">
-            <div class="vs">
-                <ul>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Hydro-Graphic Printing">
-				</span>
-				Hydro-Graphic Printing				
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Chrome Painting">
-				</span>
-				Chrome Painting
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Car Detailing">
-				</span>
-				Car Detailing
-                </li>
-                <li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Print Protection">
-				</span>
-				Print Protection
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Smart Repair">
-				</span>
-				Smart Repair
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Oil Change">
-				</span>
-				Oil Change
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Battery Services">
-				</span>
-				Battery Services		
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Tire Services">
-				</span>
-				Tire Services	
-                </li>
-				<li>
-				<span class="input-checker">
-				<input type="checkbox"  id="fs" value="Leather Painting">
-				</span>
-				Leather Painting
-                </li>
-					</ul></div></div> <br>
+                <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline;">
+                   <input type="checkbox" name="Hydroraphic Painting">&nbsp &nbsp Hydro-Graphic Painting
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Chrome Painting">&nbsp &nbsp Chrome Painting
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Car Detailing">&nbsp &nbsp Car Detailing
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Print Protection">&nbsp &nbsp Print Protection
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Smart Repair">&nbsp &nbsp Smart Repair
+               </div>
+           </div>
+       </div><br><br>
+             <div class="container">      
+               <div class="row">
+                <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline;">
+                   <input type="checkbox" name="Oil Change">&nbsp &nbsp Oil Change
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Battery Services">&nbsp &nbsp Battery Services
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Tyre Services">&nbsp &nbsp Tyre Services
+               </div>
+               <div class="check col-lg-2 col-md-3 col-sm-4 col-xs-12" style="display: inline; margin-left: 20px;">
+                   <input type="checkbox" name="Leather Painting">&nbsp &nbsp Leather Painting
+               </div>
+           </div>
+           </div>           
             <div class="row">
-            <div class="vt">Contact Details</div></div><br><br>
+            <div class="vt" style="margin-top: 25px;">Contact Details</div></div><br><br>
             <div class="row">
             <div class="col-md-5 col-sm-12 col-xs-12">
 					<div class="vs">                            
@@ -218,18 +200,17 @@
             <div class="row">
 				<input type="hidden" value="wanave.amol@gmail.com" />
 				<button type="submit" class="button"><span></span>Send Message</button>
-			</div>
-		
+            </div>
         </form>
-        </div>
-            </BR></div>
+            </div>
+            <br></div>
         <br>
         <br>
          <div id="footer">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-sm-12" style="line-height: 30px;">
-                <h4 class="headtext">CONTACT INFORMATION</h4><br>
+                <br><h4 class="headtext">CONTACT INFORMATION</h4><br>
                    <p style="color: white;display: inline;"> Email:</p> <a href="#" class="link1"><p class="link1" style="display: inline;"> info@thedealsonwheels.com</p></a><br>
                    <p style="color: white;display: inline;"> Phone: </p> <a href="#" class="link1"><p class="link1" style="display: inline;"> +91 74474 36660</p></a><br>
                    <p style="color: white;display: inline;"> Facebook: </p> <a href="#" class="link1"><p class="link1" style="display: inline;"> fb.com/thedealsonwheels</p></a><br>
@@ -237,7 +218,7 @@
                 
             </div>
             <div class="col-lg-3 col-sm-12" style="line-height: 30px;">
-                <h4 class="headtext">OUR SERVICES</h4><br>
+                <br><h4 class="headtext">OUR SERVICES</h4><br>
                 
                     <a href="#" class="link2"><p class="link2"><i class="fa fa-check-square" style="color:red"></i>  HYDRO-GRAPHIC PRINTING</p></a>
                     <a href="#" class="link2"><p class="link2"><i class="fa fa-check-square" style="color:red"></i>  CHROME PAINTING</p></a>
@@ -247,7 +228,7 @@
               
             </div>
             <div class="col-lg-3 col-sm-12" style="line-height: 30px;">
-                <h4 class="headtext">QUICK LINKS</h4><br>
+                <br><h4 class="headtext">QUICK LINKS</h4><br>
             
                 <a href="#" class="link1"><p class="link1">APPOINTMENT</p></a>
                 <a href="#" class="link1"><p class="link1">CONTACT US</p></a>
@@ -257,7 +238,7 @@
               
             </div>
             <div class="col-lg-3 col-sm-12">
-                <h4 class="headtext">QUICK CONTACT</h4><br>
+                <br><h4 class="headtext">QUICK CONTACT</h4><br>
                     <input type="text" name="Username" placeholder="Your Name" class="text1"><br><br>
                     <input type="email" name="Email" placeholder="Your Email" class="text1"><br><br>
                     <input type="tel" name="Phone" placeholder="Your Phone Number" class="text1"><br><br>
