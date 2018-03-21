@@ -69,4 +69,21 @@ select,#p2,#pp,#pp1,#pp2
 {
     background-color: red;
 }
-
+.check{
+    font-size: 15px;
+    border:1px solid lightgrey;
+    padding: 8px 10px;
+    
+}
+.check:hover
+{
+    background: rgb(255, 0, 0,0.8);
+    color: white;
+}
+input[type="checkbox"]{
+        width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: white;
+    
+}
