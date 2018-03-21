@@ -79,6 +79,7 @@ select,#p2,#pp,#pp1,#pp2
 {
     background: rgb(255, 0, 0,0.8);
     color: white;
+    cursor:pointer;
 }
 input[type="checkbox"]{
         width: 17px;
